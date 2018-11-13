@@ -1,0 +1,42 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 7px solid #e9ecef;
+}
+
+.jumbotron {
+  max-height: 300px;
+}
+
+h1 {
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  font-size: 5.5vw;
+}
+
+figcaption {
+  font-family: 'Rubik', sans-serif;
+  transform: scale(1.5);
+  padding-top: 3%;
+}
+
+#ada img:hover {
+  border: 10px solid #9933ff;
+}
+
+#grace img:hover {
+  border: 10px solid #990000;
+}
+
+#katherine img:hover {
+  border: 10px solid #4d4d4d;
+}
