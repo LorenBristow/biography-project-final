@@ -26,9 +26,6 @@ button, fieldset, input, textarea, select, fieldset {
   -webkit-appearance: none;
 }
 
-#imagenav .container {
-  display: inline-flex;
-}
 
 h1 {
   font-family: 'Rubik', sans-serif;
