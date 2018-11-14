@@ -8,7 +8,7 @@
 }
 
 article, aside, footer, header, main, nav, section {
-	display: block;
+  display: block;
 }
 
 img {
@@ -19,21 +19,22 @@ img {
 }
 
 button, fieldset, input, textarea, select, fieldset {
-	background: none;
-	border: none;
-	border-radius: 0px;
-	outline: 0;
-	-webkit-appearance: none;
+  background: none;
+  border: none;
+  border-radius: 0px;
+  outline: 0;
+  -webkit-appearance: none;
 }
 
-.jumbotron {
-  max-height: 300px;
+#imagenav .container {
+  display: inline-flex;
 }
 
 h1 {
   font-family: 'Rubik', sans-serif;
   text-align: center;
   font-size: 3.5vw;
+  padding: 0 5%;
 }
 
 figcaption {
