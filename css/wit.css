@@ -7,10 +7,23 @@
   padding: 0;
 }
 
+article, aside, footer, header, main, nav, section {
+	display: block;
+}
+
 img {
   max-width: 100%;
   height: auto;
+  display: block;
   border: 7px solid #e9ecef;
+}
+
+button, fieldset, input, textarea, select, fieldset {
+	background: none;
+	border: none;
+	border-radius: 0px;
+	outline: 0;
+	-webkit-appearance: none;
 }
 
 .jumbotron {
@@ -20,7 +33,7 @@ img {
 h1 {
   font-family: 'Rubik', sans-serif;
   text-align: center;
-  font-size: 5.5vw;
+  font-size: 3.5vw;
 }
 
 figcaption {
@@ -30,7 +43,7 @@ figcaption {
 }
 
 #ada img:hover {
-  border: 10px solid #9933ff;
+  border: 10px solid #400080;
 }
 
 #grace img:hover {
