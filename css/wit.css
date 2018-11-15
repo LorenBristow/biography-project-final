@@ -65,3 +65,16 @@ figcaption {
         font-size: 60px;
       }
     }
+
+    @media only screen
+      and (min-device-width: 992px) {
+        h1 {
+          font-size: 60px;
+        }
+      }
+
+    /*STYLING CONTENT PAGES*/
+
+    nav ul{
+      list-style:none;
+    }
