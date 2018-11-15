@@ -75,21 +75,30 @@ footer p {
 
 ul {
 list-style: none;
+
 }
 
 ul li  {
 color: white;
 }
 
-#words .row {
 
+#words .row {
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-background-image: url("../images/Ada-bg.jpg");
+background-image: url("../images/Ada-bg-gs.jpg");
+
+}
+
+#blurred .row {
+-webkit-filter: blur(10px);
+    filter: blur(10px);
+    z-index: 1;
 }
 
 #words h4,
 #words p {
-color: red;
+color: white;
+z-index: 10;
 }
