@@ -66,15 +66,28 @@ figcaption {
       }
     }
 
+      /*STYLING CONTENT PAGES*/
+
+blockquote p {
+  font-size: 20px;
+  text-align: center;
+  font-style: oblique;
+  }
+
+  @media only screen
+    and (min-device-width: 768px) {
+    blockquote p {
+        font-size: 25px;
+      }
+    }
+
     @media only screen
       and (min-device-width: 992px) {
-        h1 {
-          font-size: 60px;
+        blockquote p {
+          font-size: 30px;
         }
       }
 
-    /*STYLING CONTENT PAGES*/
-
-    nav ul{
-      list-style:none;
-    }
+.view {
+background-position: center center;
+}
