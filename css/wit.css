@@ -90,4 +90,14 @@ blockquote p {
 
 .view {
 background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+footer p {
+  text-align: center;
+}
+
+#quick-facts h2  {
+  .container color: red;
 }
