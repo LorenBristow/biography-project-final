@@ -11,7 +11,6 @@ h1 {
   font-family: 'Rubik', sans-serif;
   text-align: center;
   font-size: 32px;
-  padding: 0 5%;
 }
 
 figcaption {
@@ -80,25 +79,56 @@ list-style: none;
 
 ul li  {
 color: white;
+font-size: 20px;
 }
 
 
-#words .row {
+#words-ada .row {
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-background-image: url("../images/Ada-bg-gs.jpg");
-
+background-image: url("../images/Ada-bg-blue.jpg");
+padding:20px 15px;
+}
+#words-grace .row {
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-image: url("../images/grace2.jpg");
+padding:20px 15px;
+}
+#words-katherine .row {
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-image: url("../images/katherine.jpg");
+padding:20px 15px;
 }
 
-#blurred .row {
+/*
+#blurred:before{
+  content: "";
+  width: 100%;
+  float: left;
 -webkit-filter: blur(10px);
     filter: blur(10px);
     z-index: 1;
+} */
+
+#words-ada  h4,
+#words-grace h4,
+#words-katherine  h4,
+#words-ada  p,
+#words-grace p,
+#words-katherine p
+ {
+color: white;
+font-size: 20px;
+z-index: 10;
 }
 
-#words h4,
-#words p {
-color: white;
-z-index: 10;
+#words-ada hr,
+#words-grace hr,
+#words-katherine hr {
+  border-color: white;
 }
