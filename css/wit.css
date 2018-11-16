@@ -4,7 +4,13 @@ img {
   height: auto;
   display: block;
   border: 7px solid #e9ecef;
-}
+  }
+
+/*#ada img:hover {
+  background-image: url("../images/grace2.jpg");
+  z-index: 1001;
+  opacity: 0;
+}*/
 
 
 h1 {
@@ -94,14 +100,14 @@ padding:20px 15px;
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-background-image: url("../images/grace2.jpg");
+background-image: url("../images/grace-bg-tint.jpg");
 padding:20px 15px;
 }
 #words-katherine .row {
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-background-image: url("../images/katherine.jpg");
+background-image: url("../images/katherine-bg-grey.jpg");
 padding:20px 15px;
 }
 
