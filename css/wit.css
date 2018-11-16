@@ -37,7 +37,7 @@ figcaption {
   border: 10px solid #4d4d4d;
 }
 
-/*media queries for header1*/
+/*media queries for font sizes*/
 @media only screen
   and (min-device-width: 768px) {
     h1 {
@@ -51,6 +51,20 @@ figcaption {
         font-size: 60px;
       }
     }
+
+    @media only screen
+      and (min-device-width: 768px) {
+        #ada p {
+          font-size: 20px;
+        }
+      }
+
+      @media only screen
+        and (min-device-width: 768px) {
+          #ada li {
+            font-size: 20px;
+          }
+        }
 
       /*STYLING CONTENT PAGES*/
 
@@ -73,6 +87,7 @@ blockquote p {
           font-size: 30px;
         }
       }
+
 
 footer p {
   text-align: center;
@@ -126,9 +141,12 @@ padding:20px 15px;
 #words-katherine  h4,
 #words-ada  p,
 #words-grace p,
-#words-katherine p {
+#words-katherine p,
+#words-ada  li,
+#words-grace li,
+#words-katherine li {
 color: white;
-font-size: 20px;
+font-size: 16px;
 z-index: 10;
 }
 
